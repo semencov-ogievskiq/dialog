@@ -9,6 +9,7 @@
       <v-list
           nav
           dense
+          class="pt-8"
         >
           <v-list-item link>
             <v-list-item-icon>
