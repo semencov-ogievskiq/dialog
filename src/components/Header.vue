@@ -17,7 +17,7 @@
 
     <v-menu offset-y nudge-bottom="13px">
         <template v-slot:activator="{ on }">
-            <span v-on="on">Алексей Семенцов <v-icon>mdi-menu-down</v-icon></span>
+            <span class="font-weight-medium" v-on="on">Алексей Семенцов <v-icon>mdi-menu-down</v-icon></span>
         </template>
         <v-list>
             <v-list-item>
