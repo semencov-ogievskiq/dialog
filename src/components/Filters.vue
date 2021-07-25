@@ -4,7 +4,7 @@
     >
         <v-card-title class="font-weight-regular pb-2">Фильтры</v-card-title>
 
-        <v-container>
+        <v-card-text>
             <v-row dense>
                 <v-col cols="12" lg="6" v-for="(index, item) in [0,1,2,3,4,5,6,7,8,9]" :key="item" >
                     <span class="mx-1">
@@ -15,7 +15,7 @@
                     <span  class="mx-1">Фильтр {{index+1}}</span>
                 </v-col>
             </v-row>
-        </v-container>
+        </v-card-text>
 
     </v-card>
 </template>

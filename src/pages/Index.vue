@@ -11,11 +11,7 @@
         <v-col
             cols="8"
         >
-            <v-card
-                outlined
-            >
-                <v-card-title class="font-weight-regular">Работа с сообщениями</v-card-title>
-            </v-card>
+            <WorkMessages/>
         </v-col>
         <v-col
             cols="4"
@@ -42,10 +38,14 @@
     .col {
         padding: 0.5rem !important;
     }
+    .v-card {
+        border: 1px solid #EFF0F2;
+    }
 </style>
 
 <script>
     import Filters from '../components/Filters.vue'
+    import WorkMessages from '../components/WorkMessages.vue'
 
     export default {
         name: 'Index',
@@ -54,7 +54,8 @@
             
         }),
         components: {
-            Filters
+            Filters,
+            WorkMessages
         }
     }
 </script>

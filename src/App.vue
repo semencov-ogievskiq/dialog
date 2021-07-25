@@ -4,7 +4,7 @@
     <Sidebar/>    
     
     <v-main
-      style="background-color: #F2F2F2 !important"
+      style="background-color: #F7F7F7 !important"
     >
       <v-container fluid>
         <Index/>
