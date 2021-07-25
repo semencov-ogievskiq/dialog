@@ -16,11 +16,7 @@
         <v-col
             cols="4"
         >
-            <v-card
-                outlined
-            >
-                <v-card-title class="font-weight-regular">Список сообщений</v-card-title>
-            </v-card>
+            <ListMessages/>
         </v-col>
         <v-col
             cols="8"
@@ -46,6 +42,7 @@
 <script>
     import Filters from '../components/Filters.vue'
     import WorkMessages from '../components/WorkMessages.vue'
+    import ListMessages from '../components/ListMessages.vue'
 
     export default {
         name: 'Index',
@@ -55,7 +52,8 @@
         }),
         components: {
             Filters,
-            WorkMessages
+            WorkMessages,
+            ListMessages
         }
     }
 </script>
