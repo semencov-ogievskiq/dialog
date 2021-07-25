@@ -39,4 +39,17 @@ export default {
     font-style: normal;
     line-height: 24px;
   }
+  ::-webkit-scrollbar {
+    width: 8px;
+}
+ 
+::-webkit-scrollbar-track {
+    background: #EFEFEF;
+    border-radius: 3px !important;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 3px !important;
+    background: #97A4BA; 
+}
 </style>

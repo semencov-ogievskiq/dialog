@@ -1,6 +1,7 @@
 <template>
     <v-card
         outlined
+        class="mb-4"
     >
         <v-card-title class="font-weight-regular">Работа с сообщениями</v-card-title>
 

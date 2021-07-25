@@ -1,6 +1,7 @@
 <template>
     <v-card
         outlined
+        class="mb-4"
     >
         <v-card-title class="font-weight-regular pb-2">Список сообщений</v-card-title>
 
@@ -14,6 +15,7 @@
             >
                 <template v-slot:default="{ item }">
                     <v-card
+                    class="mr-2"
                         style="border: 1px solid #C4CFDD !important;"
                         outlined
                     >

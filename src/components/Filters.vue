@@ -1,6 +1,7 @@
 <template>
     <v-card
         outlined
+        class="mb-4"
     >
         <v-card-title class="font-weight-regular pb-2">Фильтры</v-card-title>
 
